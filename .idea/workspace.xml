@@ -4,9 +4,7 @@
     <list default="true" id="db7b1c9e-0e2e-4e3e-b4df-0c75b4aaa0ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/_style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/_style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/button.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584720386062</updated>
-      <workItem from="1584720388068" duration="6276000" />
+      <workItem from="1584720388068" duration="7164000" />
     </task>
     <servers />
   </component>
