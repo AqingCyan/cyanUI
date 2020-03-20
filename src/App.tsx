@@ -1,4 +1,5 @@
-import React from 'react';
+import React from 'react'
+import Button, {ButtonSize, ButtonType} from './components/Button/button'
 
 const App: React.FC = () => {
   return (
@@ -10,23 +11,15 @@ const App: React.FC = () => {
         <h4>Hello World</h4>
         <h5>Hello World</h5>
         <hr/>
-        <code>
-          const a = 'b'
-        </code>
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Button>Hello</Button>
+        <Button disabled>Hello Disabled</Button>
+        <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>Large Hello</Button>
+        <Button btnType={ButtonType.Primary} size={ButtonSize.Small}>Small Hello</Button>
+        <Button btnType={ButtonType.Link} href="http://www.google.com">Google Link</Button>
+        <Button btnType={ButtonType.Link} href="http://www.google.com">Disabled Link</Button>
       </header>
     </div>
   )
 }
 
-export default App;
+export default App
