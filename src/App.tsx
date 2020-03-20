@@ -16,7 +16,7 @@ const App: React.FC = () => {
         <Button btnType={ButtonType.Primary} size={ButtonSize.Large}>Large Hello</Button>
         <Button btnType={ButtonType.Primary} size={ButtonSize.Small}>Small Hello</Button>
         <Button btnType={ButtonType.Link} href="http://www.google.com">Google Link</Button>
-        <Button btnType={ButtonType.Link} href="http://www.google.com">Disabled Link</Button>
+        <Button btnType={ButtonType.Link} href="http://www.google.com" disabled>Disabled Link</Button>
       </header>
     </div>
   )

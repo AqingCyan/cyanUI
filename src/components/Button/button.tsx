@@ -25,9 +25,9 @@ interface BaseButtonProps {
 const Button: React.FC<BaseButtonProps> = (props) => {
   const { className, disabled, size, btnType, children, href } = props
 
-  const classes = classnames('btn', {
+  const classes = classnames('btn', className, {
     [`btn-${btnType}`]: btnType,
-    [`btn=${size}`]: size,
+    [`btn-${size}`]: size,
     'disabled': (btnType === ButtonType.Link) && disabled,
   })
 
