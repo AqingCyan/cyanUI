@@ -2,6 +2,7 @@ import React from 'react'
 import Button, {ButtonSize, ButtonType} from './components/Button/button'
 import Menu from './components/Menu/menu'
 import MenuItem from './components/Menu/menuItem'
+import SubMenu from './components/Menu/subMenu'
 
 const App: React.FC = () => {
   return (
@@ -28,6 +29,14 @@ const App: React.FC = () => {
           <MenuItem disabled index={1}>
             cool link1
           </MenuItem>
+          <SubMenu title="dropdown">
+            <MenuItem>
+              dropdown1
+            </MenuItem>
+            <MenuItem>
+              dropdown2
+            </MenuItem>
+          </SubMenu>
           <MenuItem index={2}>
             cool link2
           </MenuItem>
@@ -43,6 +52,14 @@ const App: React.FC = () => {
           <MenuItem index={2}>
             cool link2
           </MenuItem>
+          <SubMenu title="dropdown">
+            <MenuItem>
+              dropdown1
+            </MenuItem>
+            <MenuItem>
+              dropdown2
+            </MenuItem>
+          </SubMenu>
         </Menu>
       </header>
     </div>
