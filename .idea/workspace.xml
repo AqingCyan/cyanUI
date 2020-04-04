@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db7b1c9e-0e2e-4e3e-b4df-0c75b4aaa0ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Menu/menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Menu/menu.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Sass File" />
-        <option value="TypeScript JSX File" />
         <option value="SCSS File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -44,20 +42,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
-  <component name="RunManager" selected="Jest.test Button component">
-    <configuration name="our first react test case" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Button/button.test.tsx" />
-      <test-names>
-        <test-name value="our first react test case" />
-      </test-names>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Jest.test Menu and MenuItem component">
     <configuration name="test Button component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -71,45 +56,58 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="test Button component.should render a link when btnType equals link and href is provided" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="test Menu and MenuItem component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Button/button.test.tsx" />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/Menu/menu.test.tsx" />
       <test-names>
-        <test-name value="test Button component" />
-        <test-name value="should render a link when btnType equals link and href is provided" />
+        <test-name value="test Menu and MenuItem component" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="test Button component.should render the correct component based on different props" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="test Menu and MenuItem component.click item should change active and call the right callback" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Button/button.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/components/Menu/menu.test.tsx" />
       <test-names>
-        <test-name value="test Button component" />
-        <test-name value="should render the correct component based on different props" />
+        <test-name value="test Menu and MenuItem component" />
+        <test-name value="click item should change active and call the right callback" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="test Button component.should render the correct default button" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="test Menu and MenuItem component.should render correct Menu and MenuItem based on default props" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
       <working-dir value="$PROJECT_DIR$" />
       <envs />
       <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Button/button.test.tsx" />
+      <test-file value="$PROJECT_DIR$/src/components/Menu/menu.test.tsx" />
       <test-names>
-        <test-name value="test Button component" />
-        <test-name value="should render the correct default button" />
+        <test-name value="test Menu and MenuItem component" />
+        <test-name value="should render correct Menu and MenuItem based on default props" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="test Menu and MenuItem component.should render vertical mode when mode is set to vertical" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/components/Menu/menu.test.tsx" />
+      <test-names>
+        <test-name value="test Menu and MenuItem component" />
+        <test-name value="should render vertical mode when mode is set to vertical" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -128,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.test Menu and MenuItem component" />
+        <item itemvalue="Jest.test Menu and MenuItem component.should render vertical mode when mode is set to vertical" />
+        <item itemvalue="Jest.test Menu and MenuItem component.click item should change active and call the right callback" />
+        <item itemvalue="Jest.test Menu and MenuItem component.should render correct Menu and MenuItem based on default props" />
         <item itemvalue="Jest.test Button component" />
-        <item itemvalue="Jest.test Button component.should render a link when btnType equals link and href is provided" />
-        <item itemvalue="Jest.test Button component.should render the correct component based on different props" />
-        <item itemvalue="Jest.test Button component.should render the correct default button" />
-        <item itemvalue="Jest.our first react test case" />
       </list>
     </recent_temporary>
   </component>
@@ -149,7 +147,7 @@
       <workItem from="1584720388068" duration="7844000" />
       <workItem from="1584772622791" duration="1522000" />
       <workItem from="1584774500300" duration="11265000" />
-      <workItem from="1585986000626" duration="638000" />
+      <workItem from="1585986000626" duration="2992000" />
     </task>
     <servers />
   </component>
@@ -157,21 +155,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="271" key="GridCell.Tab.0.bottom" timestamp="1585986362161">
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom" timestamp="1585989609013">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="271" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585986362161" />
-    <state width="1899" height="271" key="GridCell.Tab.0.center" timestamp="1585986362160">
+    <state width="1899" height="271" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585989609013" />
+    <state width="1899" height="271" key="GridCell.Tab.0.center" timestamp="1585989609012">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="271" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585986362160" />
-    <state width="1899" height="271" key="GridCell.Tab.0.left" timestamp="1585986362160">
+    <state width="1899" height="271" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585989609012" />
+    <state width="1899" height="271" key="GridCell.Tab.0.left" timestamp="1585989609012">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="271" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585986362160" />
-    <state width="1899" height="271" key="GridCell.Tab.0.right" timestamp="1585986362161">
+    <state width="1899" height="271" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585989609012" />
+    <state width="1899" height="271" key="GridCell.Tab.0.right" timestamp="1585989609013">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="271" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585986362161" />
+    <state width="1899" height="271" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585989609013" />
+    <state x="-1295" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1585988027620">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1295" y="258" width="670" height="676" key="search.everywhere.popup/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1585988027620" />
   </component>
 </project>
