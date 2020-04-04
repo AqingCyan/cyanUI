@@ -22,11 +22,11 @@ const App: React.FC = () => {
         <Button style={{ margin: '0 10px' }} btnType={ButtonType.Link} target="_blank" href="http://www.google.com">Google Link</Button>
         <Button style={{ margin: '0 10px' }} btnType={ButtonType.Link} href="http://www.google.com" disabled>Disabled Link</Button>
         <hr/>
-        <Menu defaultIndex={0} onSelect={(index) => { alert(index) }} mode="vertical">
-          <MenuItem index={0}>
+        <Menu defaultIndex="0" onSelect={(index) => { alert(index) }} mode="vertical" defaultOpenSubMenus={['2']}>
+          <MenuItem>
             cool link0
           </MenuItem>
-          <MenuItem disabled index={1}>
+          <MenuItem disabled>
             cool link1
           </MenuItem>
           <SubMenu title="dropdown">
@@ -37,19 +37,19 @@ const App: React.FC = () => {
               dropdown2
             </MenuItem>
           </SubMenu>
-          <MenuItem index={2}>
+          <MenuItem>
             cool link2
           </MenuItem>
         </Menu>
         <hr/>
-        <Menu defaultIndex={0} onSelect={(index) => { alert(index) }}>
-          <MenuItem index={0}>
+        <Menu defaultIndex="0" onSelect={(index) => { alert(index) }}>
+          <MenuItem>
             cool link0
           </MenuItem>
-          <MenuItem disabled index={1}>
+          <MenuItem disabled>
             cool link1
           </MenuItem>
-          <MenuItem index={2}>
+          <MenuItem>
             cool link2
           </MenuItem>
           <SubMenu title="dropdown">

@@ -4,14 +4,17 @@ import { MenuContext } from './menu'
 import { MenuItemProps } from './menuItem'
 
 export interface SubMenuProps {
-  index?: number;
+  index?: string;
   title: string;
   className?: string;
 }
 
 const SubMenu: React.FC<SubMenuProps> = ({ index, title, className, children }) => {
   const context = useContext(MenuContext)
-  const [menuOpen, setOpen] = useState<boolean>(false)
+  const openedSubMenus = context.defaultOpenSubMenus as Array<string>
+  const isOpened = (index && context.mode === 'vertical') ? openedSubMenus.includes(index) : false // 仅在竖直状态下判断展开下拉菜单
+
+  const [menuOpen, setOpen] = useState<boolean>(isOpened)
 
   const classes = classnames('menu-item submenu-item', className, {
     'is-active': context.index === index,
@@ -46,7 +49,9 @@ const SubMenu: React.FC<SubMenuProps> = ({ index, title, className, children }) 
       const childElement = child as FunctionComponentElement<MenuItemProps>
       const { displayName } = childElement.type
       if (displayName === 'MenuItem') {
-        return childElement
+        return React.cloneElement(childElement, {
+          index: `${index}-${i}`,
+        })
       } else {
         console.error('Warning: Menu has a child which is not a MenuItem component')
       }
