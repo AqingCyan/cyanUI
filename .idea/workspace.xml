@@ -4,6 +4,12 @@
     <list default="true" id="db7b1c9e-0e2e-4e3e-b4df-0c75b4aaa0ae" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/button.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/button.stories.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/button.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/button.test.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/0-Welcome.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/1-Button.stories.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,6 +24,7 @@
         <option value="SCSS File" />
         <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -43,7 +50,20 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
-  <component name="RunManager" selected="Jest.test Menu and MenuItem component">
+  <component name="RunManager" selected="Jest.test Button component">
+    <configuration name="test Button component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/src/components/Button/button.test.tsx" />
+      <test-names>
+        <test-name value="test Button component" />
+      </test-names>
+      <method v="2" />
+    </configuration>
     <configuration name="test Menu and MenuItem component" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -54,20 +74,6 @@
       <test-file value="$PROJECT_DIR$/src/components/Menu/menu.test.tsx" />
       <test-names>
         <test-name value="test Menu and MenuItem component" />
-      </test-names>
-      <method v="2" />
-    </configuration>
-    <configuration name="test Menu and MenuItem component.click item should change active and call the right callback" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/components/Menu/menu.test.tsx" />
-      <test-names>
-        <test-name value="test Menu and MenuItem component" />
-        <test-name value="click item should change active and call the right callback" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -124,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.test Button component" />
         <item itemvalue="npm.storybook" />
         <item itemvalue="Jest.test Menu and MenuItem component" />
         <item itemvalue="Jest.test Menu and MenuItem component.should show dropdown items when hover on subMenu" />
         <item itemvalue="Jest.test Menu and MenuItem component.should render vertical mode when mode is set to vertical" />
-        <item itemvalue="Jest.test Menu and MenuItem component.click item should change active and call the right callback" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +152,7 @@
       <workItem from="1584772622791" duration="1522000" />
       <workItem from="1584774500300" duration="11265000" />
       <workItem from="1585986000626" duration="9786000" />
-      <workItem from="1587041880789" duration="510000" />
+      <workItem from="1587041880789" duration="5839000" />
     </task>
     <servers />
   </component>
@@ -154,22 +160,22 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1587041764469">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom" timestamp="1587056199357">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587041764469" />
-    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1587041764468">
+    <state width="1899" height="285" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587056199357" />
+    <state width="1899" height="285" key="GridCell.Tab.0.center" timestamp="1587056199356">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587041764468" />
-    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1587041764467">
+    <state width="1899" height="285" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587056199356" />
+    <state width="1899" height="285" key="GridCell.Tab.0.left" timestamp="1587056199355">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587041764467" />
-    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1587041764468">
+    <state width="1899" height="285" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587056199355" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right" timestamp="1587056199356">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1899" height="285" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587041764468" />
+    <state width="1899" height="285" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1587056199356" />
     <state x="-1295" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1585988027620">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
